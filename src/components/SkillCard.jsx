@@ -9,12 +9,12 @@ const SkillCard = ({ skill }) => {
           src={skill.image}
           alt={skill.name}
           loading="lazy"
-          className="max-w-full max-h-full object-contain"
+          className="max-w-full max-h-full object-contain bg-cover"
         />
       </div>
 
       {/* name */}
-      <h2 className="mt-2 text-sm sm:text-base md:text-lg font-medium text-center truncate w-full">
+      <h2 className="mt-2 text-xl font-bold sm:text-base md:text-lg text-center truncate w-full">
         {skill.name}
       </h2>
     </div>

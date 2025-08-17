@@ -6,9 +6,9 @@ const Hero = () => {
     <>
       {/* ===== Desktop / Laptop: EXACT original markup, visible ONLY on lg and up ===== */}
       <div className="hidden lg:block relative">
-        <div className="line w-1/2 h-2.5 rounded-r-full bg-amber-900 absolute top-24 "></div>
-        <div className="line w-5/12 h-2.5 rounded-r-full bg-amber-900 absolute top-36"></div>
-        <div className="line w-4/12 h-2.5 rounded-r-full bg-amber-900 absolute top-48"></div>
+        <div className="line w-1/2 h-2.5 rounded-r-full bg-amber-900 absolute top-12 "></div>
+        <div className="line w-5/12 h-2.5 rounded-r-full bg-amber-900 absolute top-24"></div>
+        <div className="line w-4/12 h-2.5 rounded-r-full bg-amber-900 absolute top-36"></div>
 
         <div id="image">
           <img

@@ -12,15 +12,15 @@ const ProjectCard = ({ project }) => {
       </figure>
 
       <div className="card-body p-4 flex flex-col">
-        <h2 className="card-title text-lg sm:text-xl font-bold">{project.name}</h2>
+        <h2 className="card-title text-lg text-amber-600 sm:text-xl font-bold">{project.name}</h2>
 
-        <p className="text-sm sm:text-base text-gray-700 mt-2">
+        <p className="text-sm sm:text-base text-gray-300 mt-2">
           {project.about}
         </p>
 
         <div className="links flex gap-2 mt-4">
           <a href={project.pageLink} target="_blank" rel="noopener noreferrer" className="flex-1">
-            <button className="btn btn-sm w-full">View Project</button>
+            <button className="btn btn-sm w-full btn-primary">View Project</button>
           </a>
           <a href={project.gitLink} target="_blank" rel="noopener noreferrer" className="flex-1">
             <button className="btn btn-sm btn-secondary w-full">View Code</button>
