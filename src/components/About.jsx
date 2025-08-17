@@ -3,7 +3,7 @@ import myimage from "../assets/sittingdeveloper (2).png";
 
 const About = () => {
   return (
-    <div>
+    <div id="about">
       <div id="img" className="absolute left-0 w-60">
         <img src={myimage} alt="image" />
       </div>

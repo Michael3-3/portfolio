@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 import ProjectData from "../assets/project";
 const Projects = () => {
   return (
-    <div className="skills h-auto  bg-amber-200">
+    <div id="projects" className="skills h-auto  bg-amber-200">
       <div
         id="head"
         className=" font-bold text-center text-5xl mb-1 text-shadow-lg text-shadow-amber-900 p-5 ">

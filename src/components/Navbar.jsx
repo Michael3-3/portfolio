@@ -10,10 +10,10 @@ const Navbar = () => {
         {/* // if the user in mobile view, the menu will be hidden and will be shown when the user clicks on the hamburger icon show a dropdown menu of options like About,myskills,projects,contact and if the user on desktop view the menu will be shown by default */}
         <div className="flex-none hidden lg:block">
           <ul className="menu  menu-horizontal text-[#ddc69dba] p-0 mr-10 gap-4"> 
-            <li><a href="#" className="text-xl font-bold btn btn-ghost rounded-2xl ">About</a></li>
-            <li><a href="#" className="text-xl font-bold btn btn-ghost rounded-2xl ">My Skills</a></li>
-            <li><a href="#" className="text-xl font-bold btn btn-ghost rounded-2xl ">Projects</a></li>
-            <li><a href="#" className="text-xl font-bold btn btn-ghost rounded-2xl ">Contact</a></li>
+            <li><a href="#about" className="text-xl font-bold btn btn-ghost rounded-2xl ">About</a></li>
+            <li><a href="#skills" className="text-xl font-bold btn btn-ghost rounded-2xl ">My Skills</a></li>
+            <li><a href="#projects" className="text-xl font-bold btn btn-ghost rounded-2xl ">Projects</a></li>
+            <li><a href="#contact" className="text-xl font-bold btn btn-ghost rounded-2xl ">Contact</a></li>
           </ul>
         </div>
         {/* here is the mobile user show a hamburger icon and when the user clicks on it the menu will be shown */}

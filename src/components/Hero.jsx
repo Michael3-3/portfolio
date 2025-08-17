@@ -11,23 +11,31 @@ const Hero = () => {
       <div className="line w-1/2 h-0.5 bg-amber-900 absolute top-5"></div>
       <div className="line w-1/2 h-0.5 bg-amber-900 absolute top-5"></div> */}
       <div id="image">
-        <img src={myImage} alt="hello" className="absolute right-0 h-1/2 top-2/4" />
+        <img
+          src={myImage}
+          alt="hello"
+          className="absolute right-0 h-1/2 top-2/4"
+        />
       </div>
       <div className="hero  h-[88.5vh] bg-[#ddc69d] bg-cover bg-center">
         <div className="hero-content text-center text-[rgb(91,87,86)]">
           <div className="">
             <h1 className="text-5xl font-bold text-shadow-lg">Hello there</h1>
             <p className="py-6 text-5xl  font-bold w-full text-shadow-lg">
-              I am <span className="text-[#6f2f14] text-shadow-[rgba(201,122,89,0.73)] text-shadow-lg">
+              I am{" "}
+              <span className="text-[#6f2f14] text-shadow-[rgba(201,122,89,0.73)] text-shadow-lg">
                 Michael
-              </span> and I'm a{" "}
+              </span>{" "}
+              and I'm a{" "}
               <span className="text-[#6f2f14] text-shadow-[rgba(201,122,89,0.73)] text-shadow-lg">
                 "Full Stack Developer"
               </span>
             </p>
-            <button className="btn bg-[#6f2f14] mt-10 h-10 w-48 text-2xl font-mono rounded-full border-gray-400 hover:bg-[#ddc69d] hover:text-[#6f2f14] ">
-              My Projects
-            </button>
+            <a href="#projects">
+              <button className="btn bg-[#6f2f14] mt-10 h-10 w-48 text-2xl font-mono rounded-full border-gray-400 hover:bg-[#ddc69d] hover:text-[#6f2f14] ">
+                My Projects
+              </button>
+            </a>
           </div>
         </div>
       </div>
