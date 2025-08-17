@@ -1,7 +1,6 @@
 import React from 'react';
 
 const SkillCard = ({ skill }) => { // destructure props
-  console.log(skill)
   return (
     <div className="card bg-base-100 w-32 shadow-lg rounded-full flex flex-col items-center p-4">
   <figure className="mb-2">

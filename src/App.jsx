@@ -1,10 +1,10 @@
 import React from "react";
-import BgImg from "./assets/portfolio-background-header-53082_1080x675.jpg";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import CursorFollower from "./components/CursorFollower";
+import Projects from "./components/Projects";
 function App() {
   return (
     <>
@@ -14,6 +14,7 @@ function App() {
         <Hero />
         <About />
         <Skills />
+        <Projects/>
       </div>
     </>
   );
